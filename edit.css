@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(20, 19, 19);
+}
+h3{
+    color: white;
+    text-align: left;
+}
+h6{
+    color: white;
+    text-align: center;
+}
+h1{
+    color: rgb(200, 139, 243);
+    text-align: center;
+}
+h2{
+    color: white;
+    text-align: center;
+}
+p{
+    color: white;
+    text-align: center;
+}
+
+#view{
+    color: white;
+    background-color: blueviolet;
+    border-color: blueviolet;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 10px;
+    
+    
+}
+#view:hover{
+    background-color: blueviolet;
+    color: black;
+}
+#touch{
+    color: white;
+    background-color: blueviolet;
+    border-color: blueviolet;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    
+}
+#touch:hover{
+    background-color: blueviolet;
+    color: black;
+}
+.box{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+}
+.linkedin{
+    color: white;
+    background-color: blueviolet;
+    border-color: blueviolet;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 8px;
+    
+}
+.container{
+    color: white;
+    text-align: right;  
+}
+.about{
+    color: rgb(124, 120, 120);
+}
+.work{
+    color: rgb(124, 120, 120);
+}
+.skills{
+    color: rgb(124, 120, 120);
+}
