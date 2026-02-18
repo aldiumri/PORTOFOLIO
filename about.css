@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(36, 29, 46);
+    
+}
+
+h2{
+ color: white;
+ display: flex;
+ align-items: flex-start;
+
+}
+.about{
+    text-align: center;
+    display: flex;
+}
+p{
+    color: white;
+    font-size: 18px;
+}
+.artikel1{
+  margin: 30px;
+    display: flex;      
+    
+}
+img{
+    width: 200px;
+  
+
+}
