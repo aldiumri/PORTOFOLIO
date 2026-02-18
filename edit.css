@@ -1,5 +1,13 @@
 body{
-    background-color: rgb(20, 19, 19);
+    background-color: rgb(26, 24, 24);
+    
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 h3{
     color: white;
@@ -7,19 +15,25 @@ h3{
 }
 h6{
     color: white;
-    text-align: center;
+    
 }
 h1{
-    color: rgb(200, 139, 243);
-    text-align: center;
+     color: rgb(200, 139, 243); 
+    
+    
 }
 h2{
     color: white;
-    text-align: center;
+    
+
 }
 p{
     color: white;
-    text-align: center;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:  0 20px;
 }
 
 #view{
@@ -50,7 +64,7 @@ p{
     background-color: blueviolet;
     color: black;
 }
-.box{
+#box{
     align-items: center;
     justify-content: center;
     display: flex;
@@ -65,16 +79,72 @@ p{
     padding: 8px;
     
 }
-.container{
+#box1{
     color: white;
-    text-align: right;  
+    text-align: right; 
+    justify-items: space-between; 
+    align-items: center;
+    display: flex;
+    width: 100%;
+    
+}
+.box2{
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;
+}
+.box3{
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 85vh;
+    
+}
+.box4{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.box5{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 78vh;
+    justify-content: space-between;
+}
+
+.label{
+    display: flex;
+    justify-content: space-between;
+}
+
+.label3{
+    padding-right: 48px;
+}
+.label4{
+    padding-right: 100px;
+}
+
+.box5 > span{
+    display: flex;
 }
 .about{
     color: rgb(124, 120, 120);
+    padding: 5px;
 }
 .work{
     color: rgb(124, 120, 120);
+    padding: 5px;
 }
 .skills{
     color: rgb(124, 120, 120);
+    padding: 5px;
 }
