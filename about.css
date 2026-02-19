@@ -3,10 +3,12 @@ body{
     
 }
 
+
 h2{
  color: white;
  display: flex;
  align-items: flex-start;
+ 
 
 }
 .about{
@@ -22,8 +24,44 @@ p{
     display: flex;      
     
 }
+#text{
+    padding: 30px;
+    margin: 10px;
+}
 img{
     width: 200px;
   
-
+}
+.portofolio{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+.box1{
+    color: white;
+    text-align: right; 
+    justify-items: space-between; 
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+.box2{
+    color: white;
+    text-align: right;
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;   
+}
+.aboutme{
+    color: rgb(124, 120, 120);
+    padding: 5px;
+}
+.work{
+    color: rgb(124, 120, 120);
+    padding: 5px;
+}
+.skills{
+    color: rgb(124, 120, 120);
+    padding: 5px;
 }
