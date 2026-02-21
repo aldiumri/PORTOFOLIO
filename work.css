@@ -1,0 +1,69 @@
+
+body{
+    background-color: rgb(36, 29, 46);
+    
+}
+
+h2{
+ color: white;
+ display: flex;
+ align-items: flex-start;
+
+}
+.work1{
+    text-align: center;
+    display: flex;
+}
+p{
+    color: white;
+    font-size: 18px;
+}
+.text1{
+    padding: 30px;
+    margin: 10px;
+}
+.galeri {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 kolom */
+    gap: 15px;
+}
+
+.galeri img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.portofolio{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+.box1{
+    color: white;
+    text-align: right; 
+    justify-items: space-between; 
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+.box2{
+    color: white;
+    text-align: right;
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;   
+}
+.aboutme{
+    color: rgb(124, 120, 120);
+    padding: 5px;
+}
+.work{
+    color: rgb(124, 120, 120);
+    padding: 5px;
+}
+.skills{
+    color: rgb(124, 120, 120);
+    padding: 5px;
+}

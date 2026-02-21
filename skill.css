@@ -1,0 +1,110 @@
+body{
+    background-color: rgb(36, 29, 46);
+    
+}
+h1{
+    color: white;
+}
+h2{
+  color: white;
+ display: flex;
+ align-items: flex-start;
+
+}
+p{
+    color: white;
+}
+.skill1 {
+    width: 400px;
+  }
+  
+  .bar {
+    background: #464141;
+    border-radius: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .isi {
+    height: 25px;
+    line-height: 25px;
+    color: rgb(240, 233, 233);
+    text-align: right;
+    padding-right: 10px;
+    border-radius: 20px;
+  }
+  .kameramen {
+    width: 80%;
+    background: #e34c26;
+  }
+  
+  .produksi {
+    width: 90%;
+    background: #264de4;
+  }
+  
+  .vmix {
+    width: 80%;
+    background: #f0db4f;
+    color: black;
+  }
+.studio{
+    width: 80%;
+    background: #e34c26;
+    color: black;
+}
+.skill2 {
+    width: 400px;
+  }
+.html{
+    width: 70%;
+    background: #e34c26;
+    color: black;
+}
+.css{
+    width: 60%;
+    background: #e34c26;
+    color: black;
+}
+.javascript{
+    width: 60%;
+    background: #e34c26;
+    color: black;
+}
+.visual{
+    width: 80%;
+    background: #e34c26;
+    color: black;
+}
+.box1{
+    color: white;
+    text-align: right; 
+    justify-items: space-between; 
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+.box2{
+    color: white;
+    text-align: right;
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;   
+}
+.portofolio{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+.aboutme{
+    color: rgb(124, 120, 120);
+    padding: 5px;
+}
+.work{
+    color: rgb(124, 120, 120);
+    padding: 5px;
+}
+.skills{
+    color: rgb(124, 120, 120);
+    padding: 5px;
+}
